@@ -65,6 +65,9 @@ formatter.scenario({
   "description": "",
   "keyword": "Scenario Outline"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "url for demowebshop \"http://demowebshop.tricentis.com/login\"",
   "keyword": "Given "
@@ -73,7 +76,7 @@ formatter.match({
   "location": "login.url_for_demowebshop(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters \"askmail@email.com\" as username",
@@ -83,7 +86,7 @@ formatter.match({
   "location": "login.user_enters_as_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters \"abc123\" as password",
@@ -93,7 +96,7 @@ formatter.match({
   "location": "login.user_enters_as_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is in webshop as \"admin\"",
@@ -103,12 +106,15 @@ formatter.match({
   "location": "login.user_is_in_webshop(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "valid login scenario",
   "description": "",
   "keyword": "Scenario Outline"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "url for demowebshop \"http://demowebshop.tricentis.com/login\"",
@@ -118,7 +124,7 @@ formatter.match({
   "location": "login.url_for_demowebshop(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters \"askmail@ymail.com\" as username",
@@ -128,7 +134,7 @@ formatter.match({
   "location": "login.user_enters_as_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters \"abc123\" as password",
@@ -138,7 +144,7 @@ formatter.match({
   "location": "login.user_enters_as_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is in webshop as \"guest\"",
@@ -148,12 +154,15 @@ formatter.match({
   "location": "login.user_is_in_webshop(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "valid login scenario",
   "description": "",
   "keyword": "Scenario Outline"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "url for demowebshop \"http://demowebshop.tricentis.com/login\"",
@@ -163,7 +172,7 @@ formatter.match({
   "location": "login.url_for_demowebshop(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters \"askmail@gmail.com\" as username",
@@ -173,7 +182,7 @@ formatter.match({
   "location": "login.user_enters_as_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters \"abc123\" as password",
@@ -183,7 +192,7 @@ formatter.match({
   "location": "login.user_enters_as_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is in webshop as \"vendor\"",
@@ -193,12 +202,15 @@ formatter.match({
   "location": "login.user_is_in_webshop(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Data Table Example",
   "description": "",
   "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin of the test me app enters",
@@ -231,6 +243,6 @@ formatter.match({
   "location": "login.admin_of_the_test_me_app_enters(DataTable)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

@@ -1,0 +1,352 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-10T06:05:17.756Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8524230600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "valid login scenario",
+        "description": "",
+        "id": "login-feature-for-demo-webshop;valid-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3932602300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url for demowebshop \"http://demowebshop.tricentis.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/login\"",
+                  "offset": 20
+                }
+              ],
+              "location": "login.url_for_demowebshop(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169741500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"askmail@email.com\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"askmail@email.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312121800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"abc123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1575969900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in webshop as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "login.user_is_in_webshop(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-10T06:05:32.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11336186700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.init()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "valid login scenario",
+        "description": "",
+        "id": "login-feature-for-demo-webshop;valid-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2701488300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url for demowebshop \"http://demowebshop.tricentis.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/login\"",
+                  "offset": 20
+                }
+              ],
+              "location": "login.url_for_demowebshop(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182653600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"askmail@ymail.com\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"askmail@ymail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278666000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"abc123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1611288800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in webshop as \"guest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"guest\"",
+                  "offset": 22
+                }
+              ],
+              "location": "login.user_is_in_webshop(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-10T06:05:48.425Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8195737300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "valid login scenario",
+        "description": "",
+        "id": "login-feature-for-demo-webshop;valid-login-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6642123100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url for demowebshop \"http://demowebshop.tricentis.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/login\"",
+                  "offset": 20
+                }
+              ],
+              "location": "login.url_for_demowebshop(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170030500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"askmail@gmail.com\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"askmail@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320244300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"abc123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2289185600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in webshop as \"vendor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vendor\"",
+                  "offset": 22
+                }
+              ],
+              "location": "login.user_is_in_webshop(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-10T06:06:06.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6895105500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.init()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Data Table Example",
+        "description": "",
+        "id": "login-feature-for-demo-webshop;data-table-example",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3592900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin of the test me app enters",
+            "match": {
+              "location": "login.admin_of_the_test_me_app_enters(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "electronics",
+                  "head phones",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "apparels",
+                  "sweat shirt",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "electronics",
+                  "USB",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "login feature for demo webshop",
+    "description": "",
+    "id": "login-feature-for-demo-webshop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/login.feature",
+    "tags": []
+  }
+]
